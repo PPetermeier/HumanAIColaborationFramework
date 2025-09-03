@@ -9,32 +9,42 @@ The framework's architecture provides a structured approach to human-AI collabor
 The framework is organized into three main layers, each serving distinct but interconnected purposes. Think of these layers as the foundation, living space, and daily activities of a house - each builds upon the others to create a complete system.
 
 ```mermaid
-flowchart TB
-    %% Main Diagram Components
-    subgraph "Foundation Layer"
+graph TD
+    %% Main Layers
+    subgraph "Foundation Layer" [Foundation Layer]
         PF[Project Foundations]
         CP[Collaborator Profile]
         EG[Engagement Guidelines]
+        GL[Glossary] 
+        MT[Mental Tools ]
     end
 
-    subgraph "Dynamic Layer"
+    subgraph "Dynamic Layer" [Dynamic Layer]
         LQ[Living Questions]
         PP[Project Plan]
+
     end
 
-    subgraph "Operational Layer"
+    subgraph "Operational Layer" [Operational Layer]
         ST[Session Template]
-        WF[Working Files]:::external
+        FS[First Session Template] 
+        WF[Working Files]
+        OCS[Onboarding Cheat Sheet] 
+        QW[Quick Win Guide ] 
     end
 
-    %% Direct Dependencies - now with circle endings
+    %% Direct Dependencies (Structural)
     PF --o LQ
     PF --o PP
     CP --o EG
     EG --o ST
-
+    GL --o OCS
+    GL --o QW
+    MT --o FS
+    
     %% Bidirectional Updates
     LQ <--> PP
+    EG <--> OCS
 
     %% Operational Flow
     LQ --> ST
@@ -42,22 +52,35 @@ flowchart TB
     ST --> LQ
     ST --> PP
     ST --> WF
+    FS --> WF
+    QW --> FS
+    OCS --> FS
 
     %% Influence Relationships
     EG -.-> LQ
     CP -.-> ST
     PF -.-> ST
+    GL -.-> ST
+    MT -.-> LQ
+    MT -.-> PP
+    MT -.-> ST
+
+    %% External Integration
+    OCS -.-> CP
+    QW -.-> PP
 
     %% Styling
     classDef foundation fill:#e6f3ff,stroke:#333,stroke-width:2px
     classDef dynamic fill:#f9f9f9,stroke:#333,stroke-width:2px
     classDef operational fill:#fff3e6,stroke:#333,stroke-width:2px
-    classDef external fill:#f0f0f0,stroke:#999,stroke-width:1px,stroke-dasharray: 5 5
+    classDef new fill:#e6ffef,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5
     
-    class PF,CP,EG foundation
-    class LQ,PP dynamic
-    class ST operational
+    class PF,CP,EG,MF,GL foundation
+    class LQ,PP,MT dynamic
+    class ST,FS,WF,OCS,QW operational
+    
 ```
+
 
 ```mermaid
 flowchart LR
@@ -118,6 +141,14 @@ Engagement Guidelines:
 - Sets documentation standards
 - Creates quality frameworks
 
+Glossary:
+- Defines key terms
+- Ensures shared understanding  
+
+Mental Tools:
+ - First entry point for metacognitive and -cooperative practices
+ - Designed to get you into practical iteration by pointing out possible entrypoints
+
 ### Dynamic Layer
 
 This layer manages the evolving aspects of your work. It contains:
@@ -153,6 +184,23 @@ Working Files:
 - Holds documentation
 - Stores resources
 - Maintains outputs
+
+Quick Win Guide:
+ - Provides immediate practical tips
+ - Helps you get started quickly
+ - Offers reminders for effective practices
+
+Onboarding Cheat Sheet:
+ - Summarizes key framework aspects
+ - Guides initial setup
+ - Supports early sessions
+ - Provides quick reference
+
+First Session Template:
+ - Guides your initial working session
+ - Structures first collaboration
+ - Helps establish patterns
+ - Documents early experiences  
 
 ## Component Relationships
 

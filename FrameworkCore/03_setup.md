@@ -28,7 +28,9 @@ Before beginning setup, take some time to:
 ## Core Setup Process
 
 The setup process focuses on establishing three fundamental components that will support all your subsequent work.
-After deciding on an AI platform you wish to you, ensure that the AI you wish to enter a cooperative relationship with has access to all files from the Process and Initialisation directories at least. Depending on its context window, giving access to the readme and additional document (like this one) may also be of use. Once all necessary files are uploaded, you are ready to start
+After deciding on an AI platform you wish to use, ensure that the AI you wish to enter a cooperative relationship with has access to all files from the Process and Initialisation directories at least. Depending on its context window, giving access to the readme and additional document (like this one) may also be of use. Once all necessary files are uploaded, you are ready to start.
+Keep in mind that you are in the driver's seat and are able to deviate from processes and structures as you see fit. The framework is a tool to support your work, not a set of rigid rules.
+
 
 ### Step 1: Create Your Collaborator Profile
 
@@ -208,9 +210,9 @@ If you have limited time:
 As you set up your framework, remember these resources:
 
 - [Framework documentation](/README.md) for reference
-- [Troubleshooting guide](/docs/08_troubleshooting.md) for specific issues
-- [Practice guide](/docs/09_practice.md) for developing effective habits
-- [Advanced topics](/docs/06_advanced.md) for future development
+- [Troubleshooting guide](08_troubleshooting.md) for specific issues
+- [Practice guide](09_practice.md) for developing effective habits
+- [Advanced topics](06_advanced.md) for future development
 
 ## Next Steps
 

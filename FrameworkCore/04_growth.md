@@ -140,13 +140,7 @@ Think about:
 - Contribution opportunities
 - Framework evolution
 
-## Supporting Others
 
-As you develop expertise, consider:
+The Framework should develop with and along you. In the best case, the artifacts you create will be destillations of mental developments you yourself made.
 
-- Mentoring new users
-- Sharing your experiences
-- Contributing improvements
-- Building community
-
-Remember that growth in this framework is not just about using it more effectively - it's about developing yourself as a thinker and collaborator. Take time to reflect on your journey and celebrate your progress.
+If you are interested in more theoretical aspects, check out the [Advanced Topics Section](06_advanced.md) especially the parts on [Metacognitive Practices](advanced/metacognitive_practices.md). For more theoretical grounding of the interactions with LLMs, consult [LLM Capabilities](advanced/llm_capabilities.md) and [Mental Models](advanced/mental_models.md).

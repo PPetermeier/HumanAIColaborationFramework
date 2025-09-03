@@ -93,6 +93,7 @@ Continuous improvement comes through:
 - Connection with other practitioners
 - Study of advanced concepts
 
+See [Growth Section](04_growth.md) as well as [Practice Section](09_practice.md)
 ### What should I do when I feel stuck?
 
 If you feel stuck:
@@ -102,6 +103,8 @@ If you feel stuck:
 3. Consult relevant framework documentation
 4. Connect with other users
 5. Consider simplifying your approach temporarily
+
+See [Troubleshooting Section](08_troubleshooting.md)
 
 ### How do I know when to add more complexity?
 
@@ -113,4 +116,4 @@ Add complexity when:
 - You can maintain quality with additions
 - You have capacity to manage more
 
-Remember that questions are natural parts of development. Use them as opportunities to deepen your understanding and improve your practice.
+Remember that questions are natural parts of development. They can help you understand what you currently need and articulating them can be clarifying and point you in the direction most helpful for you. 
