@@ -5,123 +5,7 @@
 
 Welcome to a framework that transforms how you work with AI. This isn't just another productivity tool - it's a pathway to deepening both your work and your capabilities as you collaborate with AI.
 
-## Is This Framework For You?
-
-You might find this framework valuable if you:
-
-- Work on complex projects that require deep thinking and creativity
-- Want to use AI as a genuine thought partner rather than just a tool
-- Are interested in growing your own capabilities alongside AI
-- Value systematic approaches to knowledge and project development
-
-The framework helps you move beyond using AI for simple tasks, instead creating a structure for meaningful collaboration that enhances both your work and your own development.
-
-## What to Expect
-
-This framework will change how you work with AI in fundamental ways:
-
-### Shifting Focus
-
-- Less time spent on routine research and organization
-- More energy for critical thinking and evaluation
-- Greater emphasis on judgment and strategic planning
-- Deeper engagement with the quality and direction of your work
-
-### Growing Responsibility
-
-As you work with AI more deeply, you'll find yourself:
-
-- Taking ownership of two interlinked thinking processes
-- Developing stronger critical evaluation skills
-- Making more nuanced strategic decisions
-- Growing your capacity for reflection and metacognition
-
-### Time Investment
-
-- Initial setup: 2-3 hours
-- Learning curve: 1-2 weeks of regular use
-- Ongoing refinement: Continuous but integrated into your work
-
-## Getting Started
-
-![](/pictures/starting_readme.webp)
-
-Here is a simple decision flowchart that charts the territory of the repository and helps you find your way - either to additional theoretical underpinnings of this template, or how to get into concrete practice right away:
-
-```mermaid
-flowchart TD
-    Start([I'm new to the Framework]) --> Question1{Are you familiar with
-    human-AI collaboration?}
-    Question1 -- No --> Basics
-    Question1 -- Yes --> Question2{Do you want 
-    to start quickly?}
-    
-    Basics --> Question2
-    
-    Question2 -- Yes --> QuickStart
-    Question2 -- No --> Question3{Do you want to understand
-    the framework structure?}
-    
-    QuickStart --> Setup
-    
-    Question3 -- Yes --> Architecture
-    Question3 -- No --> Setup
-    
-    Architecture --> Setup
-    
-    Setup --> Question4{Having issues or questions?}
-    
-    Question4 -- Yes --> Question5{What kind of help
-     do you need?}
-    Question4 -- No --> Question6{Ready & interested 
-    to grow your skills?}
-    
-    Question5 -- "Specific problems" --> Troubleshooting
-    Question5 -- "General questions" --> FAQ
-    
-    Troubleshooting --> Question6
-    FAQ --> Question6
-    
-    Question6 -- Yes --> Question7{What aspect are you
-    interested in?}
-    Question6 -- No --> Start2([Begin your project!])
-    
-    Question7 -- "Improving skills" --> Practice
-    Question7 -- "Advanced concepts" --> Advanced
-    Question7 -- "Long-term development" --> Growth
-    
-    Practice --> Start2
-    Advanced --> Start2
-    Growth --> Start2
-    
-    style Start fill:#f9f,stroke:#333,stroke-width:2px
-    style Start2 fill:#f9f,stroke:#333,stroke-width:2px
-    style Basics fill:#bbf,stroke:#333,stroke-width:1px
-    style QuickStart fill:#bbf,stroke:#333,stroke-width:1px
-    style Setup fill:#bbf,stroke:#333,stroke-width:1px
-    style Architecture fill:#bbf,stroke:#333,stroke-width:1px
-    style Troubleshooting fill:#bbf,stroke:#333,stroke-width:1px
-    style FAQ fill:#bbf,stroke:#333,stroke-width:1px
-    style Practice fill:#bbf,stroke:#333,stroke-width:1px
-    style Advanced fill:#bbf,stroke:#333,stroke-width:1px
-    style Growth fill:#bbf,stroke:#333,stroke-width:1px
-```
-
------------
-
-### Direct links to each file
-
-1. Begin with [Understanding the Basics](docs/01_basics.md) to grasp the core concepts
-2. Review the [Quick Start Guide](docs/02_quickstart.md) for essential setup steps
-3. Set up your first project following the [Setup Guide](docs/03_setup.md)
-4. Explore [Growing with the Framework](docs/04_growth.md) as you progress
-5. Understand the interactions and conepts behind the[Framework Components](/docs/05_architecture.md)
-6. Familiarise yourself with [Advanced Topics](/docs/06_advanced.md) by accessing reflective cognitive processes, meta-rationality and -project management
-7. Find short answer to [Common Questions](/docs/07_faq.md) that may arise
-8. If you run into problems, consult the  [Troubleshooting Guide](/docs/08_troubleshooting.md)
-9. In a parallel move to point 6, learn how  [How to practice usage](/docs/09_practice.md) - in effect, how to learn
-
------------
+In case you just want to start, check out the [Framework Quickstart Guide](FrameworkCore/02_quickstart.md)
 
 ## Core Principles
 
@@ -141,19 +25,24 @@ This framework is built on several key insights about human-AI collaboration:
    - Take responsibility for outcomes
    - Grow from the experience
 
-![](/pictures/structure_readme.webp)
+### Direct links to usage filey
 
-## Contributing
+1. Begin with [Understanding the Basics](FrameworkCore/01_basics.md) to grasp the core concepts, if extremely stoked, get directly to [instant wins](FrameworkCore/00_Instant_start.md)
+2. Review the [Quick Start Guide](FrameworkCore/02_quickstart.md) for essential setup steps, if you want to directly change your interaction without this framework, consult the [Prompting Guide](FrameworkCore/reference/prompting_guide.md) and the [Glossary](FrameworkCore/reference/glossary.md)
+3. Set up your first project following the [Setup Guide](FrameworkCore/03_setup.md)
+4. Explore [Growing with the Framework](FrameworkCore/04_growth.md) as you progress
+5. Understand the interactions and concepts behind the [Framework Components](FrameworkCore/05_architecture.md)
+6. Familiarise yourself with [Advanced Topics](FrameworkCore/06_advanced.md) by accessing reflective cognitive processes, meta-rationality and project management
+7. Find short answers to [Common Questions](FrameworkCore/07_faq.md) that may arise
+8. If you run into problems, consult the [Troubleshooting Guide](FrameworkCore/08_troubleshooting.md)
+9. In a parallel move to point 6, learn [How to practice usage](FrameworkCore/09_practice.md) - in effect, how to learn
 
-This framework is under active development. We welcome contributions and feedback through:
+### Theoretical resources
 
-- Issue reports
-- Feature suggestions
-- Documentation improvements
-- Experience sharing
+1. For understanding LLMs, check out [LLM Capabilities](FrameworkCore/advanced/llm_capabilities.md)
+2. For understanding different mental models of LLMs with their implicit limitations and advantages check out [Mental Models](FrameworkCore/advanced/mental_models.md)
+3. For understanding metacognitive practices, check out [Metacognitive Practices](FrameworkCore/advanced/metacognitive_practices.md)
 
-There is no formal way of contributing now, but Feedback and getting into contact would be deeply appreciated!
+### For AI Models
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+**Special Resources for Language Models**: The [AI Utilities](ai-utilities/) directory contains specialized tools designed to help AI models navigate and effectively use this framework, including navigation guides, session continuity templates, evaluation checklists, and boundary clarification guides.

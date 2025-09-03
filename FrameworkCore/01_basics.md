@@ -10,7 +10,7 @@ Working with AI represents a unique form of partnership that differs from both t
 
 When you work with an AI, you're engaging with a system that:
 
-- Can reason sophisticatedly about complex topics
+- Can reason sophisticatedly about complex topics or at least seem to do so
 - Maintains no persistent memory between sessions
 - Responds to how you frame and guide the interaction
 - Reflects your own thinking patterns and assumptions
@@ -81,6 +81,12 @@ Effective collaboration requires several important mental shifts:
    - Maintaining strategic oversight
    - Ensuring quality and coherence
 
+4. **Sycophancy**
+   - AI may tend to agree with you
+   - Important to seek critical perspectives
+   - Encourage diverse viewpoints and challenges
+
+
 ### Growth Opportunities
 
 Working with AI effectively can help you develop:
@@ -94,8 +100,8 @@ Working with AI effectively can help you develop:
 
 Once you understand these basics, you're ready to:
 
-1. Review the [Quick Start Guide](/docs/02_quickstart.md)
-2. Set up your first project
-3. Begin developing your collaboration skills
+1. Review the [Quick Start Guide](02_quickstart.md)
+2. Set up your [first project](03_setup.md)
+3. Begin developing your [collaboration skills](04_growth.md)
 
 Remember that mastering this form of collaboration is a journey. Take time to reflect on your experiences and adjust your approach as you learn.

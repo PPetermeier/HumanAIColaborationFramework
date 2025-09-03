@@ -38,7 +38,7 @@ Start with these core components:
 
 ### Before Starting
 
-1. Review the [Understanding Basics](/docs/01_basics.md) document
+1. Review the [Understanding Basics](01_basics.md) document
 2. Have your project goals clearly in mind
 3. Allow 30-60 minutes for the session
 4. Prepare to take notes
