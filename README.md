@@ -1,7 +1,6 @@
 
 # Human-AI Collaboration Framework
 
-![A banner depicting a woman and a humanoid robotic AI cooperating](/pictures/banner_readme.webp)
 
 Welcome to a framework that transforms how you work with AI. This isn't just another productivity tool - it's a pathway to deepening both your work and your capabilities as you collaborate with AI.
 

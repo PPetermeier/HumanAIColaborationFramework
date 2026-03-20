@@ -1,5 +1,3 @@
-![](/pictures/banner_architecture.webp)
-
 # Framework Architecture
 
 The framework's architecture provides a structured approach to human-AI collaboration while maintaining flexibility for different needs and working styles. This document explains how the different components work together to support effective collaboration.

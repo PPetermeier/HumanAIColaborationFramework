@@ -1,5 +1,3 @@
-![](/pictures/banner_faqs.webp)
-
 # Common Questions
 
 This document addresses frequent questions about the Human-AI Collaboration Framework. We've organized these questions to help you understand both practical aspects and deeper principles.

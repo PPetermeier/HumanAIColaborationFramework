@@ -1,5 +1,3 @@
-![](/pictures/banner_practice.webp)
-
 # Practice Guide
 
 This guide helps you develop effective practice habits with the Human-AI Collaboration Framework. Understanding that practice is fundamental to success, we'll explore how to make your practice both effective and enlightening.
