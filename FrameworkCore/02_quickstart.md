@@ -1,5 +1,3 @@
-![](/pictures/banner_quickstart.webp)
-
 # Quick Start Guide
 
 This guide helps you begin using the framework quickly while building a foundation for deeper engagement.

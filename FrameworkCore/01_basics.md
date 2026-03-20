@@ -1,5 +1,3 @@
-![](/pictures/banner_basics.webp)
-
 # Understanding the Basics
 
 ## The Nature of AI Collaboration

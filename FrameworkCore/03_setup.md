@@ -1,5 +1,3 @@
-![](/pictures/banner_setup.webp)
-
 # Setup Guide
 
 This guide walks you through the process of setting up the Human-AI Collaboration Framework for your first project. Following these steps will help you establish a solid foundation for effective collaboration.

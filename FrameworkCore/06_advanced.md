@@ -1,5 +1,3 @@
-![](/pictures/banner_advanced.webp)
-
 # Advanced Topics
 
 This document explores sophisticated aspects of human-AI collaboration for practitioners who have mastered the basic framework. These concepts build on fundamental principles while introducing more complex patterns and deeper understanding. As you read, remember that these advanced topics emerge naturally from practice - they aren't separate from the basic framework but rather represent a deeper engagement with its core principles.

@@ -1,5 +1,3 @@
-![](/pictures/banner_growth.webp)
-
 # Growing with the Framework
 
 As you become more comfortable with the basic framework, you'll discover opportunities to deepen both your collaboration and your own capabilities. This document guides you through this evolution.
